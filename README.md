@@ -1,11 +1,19 @@
-## Job Portal Application
+## Workout Log Application
 
-This is a job portal application where users can search for jobs and apply for them.
+This is a Workout Log application where users can track their workout digitally.
 
 ### Features
 
-- Users can view all the jobs available.
-- Users can apply for a specific job.
-- Admin can add new companies.
-- Admin can add new jobs.
-- Admin can view all the applications for a specific job.
+#### Authentication
+
+  - Register: Allow new users to register with a username and password.
+  - Login: Existing users can log in with their credentials.
+
+#### Workout Management
+
+  - Add Workout: Allow users to add new workouts with fields like exercise name, sets, and reps.
+
+#### Navigation
+
+  - Navbar: Include a navigation bar with links to Home, Add Workout, Register, and Login pages.
+  - Routing: Use react-router-dom for managing navigation between different pages and components.
