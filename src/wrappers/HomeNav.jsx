@@ -17,6 +17,9 @@ const HomeNav = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/login">Login</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/dashboard">Add Workout</Link>
+            </li>
           </ul>
         </div>
       </div>
